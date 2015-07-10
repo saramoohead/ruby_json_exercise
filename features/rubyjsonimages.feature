@@ -1,5 +1,5 @@
-Feature: get a job at Gingersnap
-  So that I can get a job at Gingersnap
+Feature: get a job
+  So that I can get a job
   As a junior developer,
   I want to build a demo JSON API
 
