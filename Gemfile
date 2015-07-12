@@ -28,7 +28,6 @@ gem 'paperclip', '~> 4.3'
 # for image storage
 gem 'aws-sdk', '~> 1.6'
 # for APIs
-gem 'jsonapi-resources'
 gem 'rake'
 
 # for bootstrap
