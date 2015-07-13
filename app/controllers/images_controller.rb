@@ -9,6 +9,8 @@ class ImagesController < ApplicationController
     p @image
     @image.image = params[:image]
     @image.save
+    p "last line"
+    p @image
     render json: @image
   end
 

@@ -6,5 +6,6 @@ Feature: get a job
     Scenario: upload image
       Given I am on the home page
       When I attach "some.jpg"
+      And I click "Create Image"
       Then I see the image on the page
       And I see a caption text box
