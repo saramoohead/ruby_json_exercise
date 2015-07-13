@@ -1,10 +1,11 @@
 class ImagesController < ApplicationController
 
   def index
+    @image = Image.new
   end
 
   def create
-    @image = Image.new(image_params)
+    @image = Image.create(image_params)
     p "first line"
     p @image
     @image.image = params[:image]
