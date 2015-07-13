@@ -31,7 +31,7 @@ gem 'aws-sdk', '~> 1.6'
 gem 'rake'
 
 # for pretty html
-gem 'haml'
+gem 'haml-rails'
 # for bootstrap
 gem 'bootstrap-sass', '~> 3.3.5'
 

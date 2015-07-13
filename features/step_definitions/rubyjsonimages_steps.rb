@@ -2,12 +2,8 @@ Given(/^I am on the home page$/) do
   visit '/images'
 end
 
-When(/^I click "(.*?)"$/) do |arg1|
-  click_on(arg1)
-end
-
 When(/^I attach "(.*?)"$/) do |arg1|
-  attach_file('LostAndFound', '/Desktop/LostAndFound-OliverJeffers.jpg')
+  attach_file('image_image', File.absolute_path('./LostAndFound-OliverJeffers.jpg'))
 end
 
 Then(/^I see the image on the page \(Or then the number of images increases by one\)$/) do

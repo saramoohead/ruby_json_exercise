@@ -5,7 +5,6 @@ Feature: get a job
 
     Scenario: upload image
       Given I am on the home page
-      When I click "Add new image" 
-      And I attach "bob.jpg"
+      When I attach "some.jpg"
       Then I see the image on the page (Or then the number of images increases by one)
       And I see a caption text box
